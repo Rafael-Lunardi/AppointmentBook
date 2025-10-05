@@ -13,10 +13,18 @@ public class Main {
 
         int period = 2;
         while (period < 5){
-            System.out.println("Period" + period);
+            System.out.println();
+            System.out.println("Period: " + period);
             b.printPeriod(period);
             period++;
 
         }
+        System.out.println();
+        System.out.println("Test Case 2\n---");
+        b.printPeriod(4);
+        System.out.println("---");
+        System.out.println(b.makeAppointment(2,4,22));
+        System.out.println("---");
+        b.printPeriod(4);
     }
 }
