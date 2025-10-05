@@ -26,5 +26,7 @@ public class Main {
         System.out.println(b.makeAppointment(2,4,22));
         System.out.println("---");
         b.printPeriod(4);
+        System.out.println();
+        System.out.println("This works as intended as it makes the apointment and then marks the periods as taken.");
     }
 }
